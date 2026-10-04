@@ -29,7 +29,7 @@
   <main class="legal">
     <div class="container">
       <h1>Privacy Policy</h1>
-      <p>Effective date: October 2, 2026</p>
+      <p>Effective date: October 4, 2026</p>
       <p>
         Crypto Fear &amp; Greed is a lightweight app that shows the market sentiment index.
         We built it to be simple and respectful of your data.
@@ -42,8 +42,8 @@
         index from a public API over the internet.
       </p>
       <p>
-        The Android app also collects limited usage and crash information, described below, to
-        keep the app working and to understand how it is used.
+        The Android app also collects limited usage and crash information and receives remote app
+        settings, as described below, to keep the app working and to understand how it is used.
       </p>
 
       <h2>Data stored on your device</h2>
@@ -85,6 +85,23 @@
         not use this information to identify you. We do not sell it.
       </p>
 
+      <h2>Remote configuration (Android)</h2>
+      <p>
+        The Android app uses Google's Firebase Remote Config. It lets us adjust app settings, such as
+        how often ads and review prompts may appear and how long widgets stay unlocked, and switch
+        features on or off without an app update. The app fetches these settings in the background
+        and applies them the next time it starts.
+      </p>
+      <p>
+        To deliver the settings, the app sends Google its country, language, time zone, operating
+        system version, app identifiers and SDK version, and a Firebase installation ID.
+      </p>
+      <p>
+        This information is not used for personalization, advertising, or to identify you, and it is
+        not linked to your analytics choice. Remote configuration works regardless of that choice,
+        because the app needs it to receive its settings.
+      </p>
+
       <h2>Your choices and consent</h2>
       <p>
         <strong>In the European Economic Area, the United Kingdom, and Switzerland,</strong> the app
@@ -102,6 +119,10 @@
         the app's main screen. On Android, you can also reset your advertising ID or opt out of ad
         personalization in your device settings.
       </p>
+      <p>
+        Remote configuration, described above, is not covered by this choice. It works regardless
+        of your analytics choice because the app needs it to receive its settings.
+      </p>
 
       <h2>Advertising</h2>
       <p>
@@ -117,6 +138,7 @@
         <li>Public Fear &amp; Greed index API for sentiment data.</li>
         <li>Google AdMob (Android only) for advertising.</li>
         <li>Google Firebase Analytics and Firebase Crashlytics (Android only) for usage analytics and crash reports.</li>
+        <li>Google Firebase Remote Config (Android only) for remote app settings.</li>
         <li>Google's user consent form (Android only) to collect your consent where the law requires it.</li>
       </ul>
       <p>
@@ -130,8 +152,10 @@
       <h2>How long data is kept</h2>
       <p>
         Crash reports are kept by Crashlytics for 90 days. Analytics data is kept for the
-        retention period configured in our Firebase project, which is at most 14 months. Data
-        stored only on your device is removed when you uninstall the app.
+        retention period configured in our Firebase project, which is at most 14 months. Firebase
+        installation IDs are kept until they are deleted at our request; Google removes them within
+        180 days after deletion. Data stored only on your device is removed when you uninstall the
+        app.
       </p>
 
       <h2>Your rights and deletion requests</h2>
