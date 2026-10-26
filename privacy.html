@@ -29,7 +29,7 @@
   <main class="legal">
     <div class="container">
       <h1>Privacy Policy</h1>
-      <p>Effective date: October 16, 2026</p>
+      <p>Effective date: October 26, 2026</p>
       <p>
         Crypto Fear &amp; Greed is a lightweight app that shows the market sentiment index.
         We built it to be simple and respectful of your data.
@@ -42,8 +42,11 @@
         index from a public API over the internet.
       </p>
       <p>
-        The Android and iOS apps collect limited usage and crash information, subject to your choices
-        described below. The Android app also receives remote settings to keep the app working.
+        The iOS app and the Android versions distributed through Google Play and Samsung Galaxy
+        Store collect limited usage and crash information, subject to your choices described below.
+        Those Android versions also receive remote settings to keep the app working. The Huawei
+        AppGallery version of the Android app works differently; see
+        <a href="#huawei">Huawei AppGallery version</a> below.
       </p>
 
       <h2>Data stored on your device</h2>
@@ -53,9 +56,10 @@
         uploaded by the app.
       </p>
 
-      <h2>Usage analytics and crash reports (Android and iOS)</h2>
+      <h2>Usage analytics and crash reports (iOS, Google Play and Samsung Galaxy Store versions)</h2>
       <p>
-        The Android and iOS apps use Google's Firebase Analytics and Firebase Crashlytics. They help us
+        The iOS app and the Android versions distributed through Google Play and Samsung Galaxy Store
+        use Google's Firebase Analytics and Firebase Crashlytics. They help us
         understand which features are used, whether data loads successfully, and why the app
         crashes, so we can fix problems and improve the app.
       </p>
@@ -85,9 +89,10 @@
         not use this information to identify you. We do not sell it.
       </p>
 
-      <h2>Remote configuration (Android)</h2>
+      <h2>Remote configuration (Android: Google Play and Samsung Galaxy Store versions)</h2>
       <p>
-        The Android app uses Google's Firebase Remote Config. It lets us adjust app settings, such as
+        The Android versions distributed through Google Play and Samsung Galaxy Store use Google's
+        Firebase Remote Config. It lets us adjust app settings, such as
         how often ads and review prompts may appear and how long widgets stay unlocked, and switch
         features on or off without an app update. The app fetches these settings in the background
         and applies them the next time it starts.
@@ -102,10 +107,54 @@
         because the app needs it to receive its settings.
       </p>
 
-      <h2>Your choices and consent</h2>
+      <h2 id="huawei">Huawei AppGallery version</h2>
       <p>
-        <strong>In the European Economic Area, the United Kingdom, and Switzerland,</strong> the app
-        asks for your consent in a form provided by Google when you first open it. Analytics and
+        The version of the Android app distributed through Huawei AppGallery does not use Google
+        services. It does not use Firebase Analytics, Firebase Crashlytics, Firebase Remote Config, or
+        Google AdMob, and it does not send us usage analytics or crash reports. It uses built-in
+        default settings instead of remote configuration.
+      </p>
+      <p>
+        <strong>Ads.</strong> This version shows ads served by HUAWEI Ads (Petal Ads) through the
+        HUAWEI Ads Kit software development kit. Huawei's Ads SDK privacy statement, which Huawei
+        states applies to devices sold in mainland China, says the SDK may process device
+        identifiers (such as the Open Advertising Identifier, OAID), device model and hardware
+        information, app and usage information, network information and IP address, and ad
+        interaction data (such as impressions and clicks), to display, measure, and secure ads and
+        to prevent fraud. Similar data may be processed for users in other regions. This app does
+        not request permission to access your device's location. Huawei may still derive an
+        approximate location from network information such as your IP address. We do not receive your
+        personal data from HUAWEI Ads; we only see aggregated ad performance reports, such as
+        impressions and revenue. Huawei processes this data under its own terms and privacy notices
+        and may process it on servers in other countries; see the third-party services section
+        below.
+      </p>
+      <p>
+        <strong>Your choices.</strong> On Huawei devices you can reset your OAID or turn off
+        personalized ads in the device's system settings. The Google consent form and the in-app
+        <em>Privacy settings</em> described below apply to the other versions of the app.
+      </p>
+      <p>
+        <strong>Alerts and widgets.</strong> Alert rules and thresholds that you create stay on your
+        device. To check them, the app periodically requests the public Fear &amp; Greed and market
+        data described above in the background. No alert settings, device tokens, or personal
+        information are sent to us.
+      </p>
+      <p>
+        <strong>App reviews.</strong> If you choose to rate the app, the rating prompt is handled by
+        Huawei AppGallery, and the app's AppGallery listing may open instead if the prompt is
+        unavailable. What you submit there is handled by Huawei.
+      </p>
+
+      <h2>Your choices and consent (iOS, Google Play and Samsung Galaxy Store versions)</h2>
+      <p>
+        This section applies to the iOS app and the Android versions distributed through Google Play
+        and Samsung Galaxy Store. It does not apply to the Huawei AppGallery version, whose choices
+        are described in the Huawei section above.
+      </p>
+      <p>
+        <strong>In the European Economic Area, the United Kingdom, and Switzerland,</strong> these
+        versions ask for your consent in a form provided by Google when you first open them. Analytics and
         crash reporting are enabled only if you consent to analytics. If you decline, analytics
         collection and crash-report uploads are disabled. Ad availability and personalisation depend
         on your advertising consent and the ad provider’s requirements.
@@ -127,7 +176,8 @@
 
       <h2>Advertising</h2>
       <p>
-        On Android and iOS, the app shows ads. Ads are served by Google AdMob, which may collect device
+        In the iOS app and the Android versions distributed through Google Play and Samsung Galaxy
+        Store, the app shows ads. Ads are served by Google AdMob, which may collect device
         identifiers (such as the Android advertising ID or, with permission on iOS, the advertising
         identifier), IP address, approximate location, and usage and diagnostic data to provide,
         measure, and secure ads. Where required, the ad consent form described above applies. We do
@@ -144,11 +194,12 @@
       <h2>Third-party services</h2>
       <p>The app interacts with these external services:</p>
       <ul>
-        <li>Public Fear &amp; Greed index API for sentiment data.</li>
-        <li>Google AdMob (Android and iOS) for advertising.</li>
-        <li>Google Firebase Analytics and Firebase Crashlytics (Android and iOS) for usage analytics and crash reports.</li>
-        <li>Google Firebase Remote Config (Android only) for remote app settings.</li>
-        <li>Google's user consent form (Android and iOS) to collect your consent where the law requires it.</li>
+        <li>Public Fear &amp; Greed index and market data API (alternative.me) for sentiment and market data. Like any web service, it can see your device's IP address and basic request details when the app contacts it.</li>
+        <li>Google AdMob (iOS, Google Play and Samsung Galaxy Store versions) for advertising.</li>
+        <li>HUAWEI Ads (Petal Ads) and the HUAWEI Ads Kit (Huawei AppGallery version) for advertising.</li>
+        <li>Google Firebase Analytics and Firebase Crashlytics (iOS, Google Play and Samsung Galaxy Store versions) for usage analytics and crash reports.</li>
+        <li>Google Firebase Remote Config (Android: Google Play and Samsung Galaxy Store versions) for remote app settings.</li>
+        <li>Google's user consent form (iOS, Google Play and Samsung Galaxy Store versions) to collect your consent where the law requires it.</li>
       </ul>
       <p>
         Google processes this information as our service provider and under its own terms. See
@@ -157,14 +208,26 @@
         Google may process data in countries outside your own, using safeguards such as the EU
         Standard Contractual Clauses.
       </p>
+      <p>
+        In the Huawei AppGallery version, advertising is provided by Huawei, which processes the
+        resulting data under its own terms and privacy notices, including the legal basis for that
+        processing, how long it keeps the data, and any safeguards for transfers to other countries.
+        See <a href="https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/whale-hong-kinetic-energy-sdk-privacy-statement-0000001658283582">Huawei's Ads SDK privacy statement</a>,
+        which Huawei states applies to devices sold in mainland China, and, for users in the
+        European Economic Area, the United Kingdom, and Switzerland, the data protection information
+        for Ads Kit (EU) that Huawei publishes in its
+        <a href="https://developer.huawei.com/consumer/en/hms/huawei-adskit/">Ads Kit documentation</a>.
+      </p>
 
       <h2>How long data is kept</h2>
       <p>
         Crash reports are kept by Crashlytics for 90 days. Analytics data is kept for the
         retention period configured in our Firebase project, which is at most 14 months. Firebase
         installation IDs are kept until they are deleted at our request; Google removes them within
-        180 days after deletion. Data stored only on your device is removed when you uninstall the
-        app.
+        180 days after deletion. These periods apply to the services we use in the iOS app and the
+        Google Play and Samsung Galaxy Store versions. Data processed by HUAWEI Ads in the Huawei
+        AppGallery version is kept under Huawei's own policies. Data stored only on your device is
+        removed when you uninstall the app.
       </p>
 
       <h2>Your rights and deletion requests</h2>
@@ -183,15 +246,16 @@
       <h2>Changes to this policy</h2>
       <p>
         If we update this policy, we will change the effective date at the top of this page. The
-        analytics and crash reporting described here apply to Android and iOS versions that include
-        these features. Remote configuration remains Android-only. We update this policy before
+        analytics and crash reporting described here apply only to the versions that include these
+        features. Remote configuration applies only to the Android versions distributed through
+        Google Play and Samsung Galaxy Store. We update this policy before
         introducing materially different data uses.
       </p>
 
       <h2>Contact</h2>
       <p>
         For questions about privacy or to make a request, please contact the developer through the
-        contact details on the app's Google Play or Apple App Store listing, or email
+        contact details on the app's Google Play, Apple App Store, or Huawei AppGallery listing, or email
         <a href="mailto:cardiocanwait@gmail.com">cardiocanwait@gmail.com</a>.
       </p>
     </div>
